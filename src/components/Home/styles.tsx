@@ -1,39 +1,58 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    display: grid;
-    justify-content: center;
-    align-items: center;
 
-    background-color: var(--pink-light);
+    background-color: rgba(245, 212, 195, 0.7);
     color: var(--white);
 
-    height: 45rem;
-`
-
-export const Title = styled.div`
-
-    margin-top: 5rem;
-    display: grid;
-    justify-content: center;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    text-align: center;
+
+    height: 45rem;
 
     h3{
         font-weight: 300;
     }
-
 `
+
+export const Title = styled.div`
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+`
+
+
 
 export const Image = styled.div`
     img{
         width: 10rem;
         height: 10rem;
-        margin-top: 2rem;
-
-        border-radius: 3rem;
     }
+
+    margin-bottom:2rem;
 `
 
 export const Clock = styled.div`
+
     
+`
+
+export const Register = styled.div`
+    font-size: 20px;
+    color: var(--green-dark);
+    button{
+        background-color: var(--white);
+        border: none;
+        border-radius: 2rem;
+        width: 10rem;
+        height: 2rem;
+
+        color: var(--green-dark);
+    }
+    h3{
+        margin-top: 1rem;
+        font-size: 18px;
+    }
 `

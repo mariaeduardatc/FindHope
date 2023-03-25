@@ -6,12 +6,14 @@ export const Container = styled.header`
     justify-content: space-between;
     align-items: center;
 
-    background: var(--pink-light, 0.5);
+    background: var(--pink-light);
 
     height: 4rem;
 
     #logo{
         margin-left: 2rem;
+        height: 2rem;
+        width: 2rem;
     }
 
     #register-button{

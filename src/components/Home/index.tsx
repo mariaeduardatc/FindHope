@@ -1,15 +1,15 @@
-import { Container, Title, Image, Clock } from "./styles";
-import image from '../../assets/icon.jpeg'
+import { Container, Title, Image, Clock, Register } from "./styles";
+import image from '../../assets/icon.png'
 
 
 export function Home(){
+
     return(
         <Container>
             <Title>
                 <h1>
                     Virtual Mental Health Retreat
                 </h1>
-
                 <h3>
                     Learn to deal with Trauma, relationships & anxiety
                 </h3>
@@ -24,6 +24,12 @@ export function Home(){
                     The Event Starts in:
                 </h3>
             </Clock>
+
+            <Register>
+                <button>Register now: $100 <>$70</></button>
+                <h3>ONLY 23 SPOTS LEFT</h3>
+
+            </Register>
 
             
         </Container>
