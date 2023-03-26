@@ -32,7 +32,7 @@ export function Get(){
                 </Description>
 
                 <Description>
-                    <img src="" alt="" />
+                <img src={check} alt="check symbol" />
                     <h4 className="day">Day 4:</h4>
                     <h4>Dealing with a dysfunctional family</h4>
                 </Description>
