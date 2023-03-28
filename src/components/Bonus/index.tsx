@@ -4,7 +4,7 @@ export function Bonus(){
     return(
         <Container>
             <Title>
-                <h1>Bonuses Package worth $100</h1>
+                <h1>Bonus Package worth $100</h1>
             </Title>
 
             <Bonuses>

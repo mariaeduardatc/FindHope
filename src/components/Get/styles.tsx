@@ -52,6 +52,7 @@ export const Description = styled.div`
         font-size: 16px;
         font-weight: 100;
         display: flex;
+
     }
 
     .day{

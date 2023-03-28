@@ -6,6 +6,7 @@ import { Header } from './components/Header';
 import { Home } from './components/Home';
 import { Information } from './components/Information';
 import { GlobalStyle } from './styles/global';
+import { Reviews } from './components/Reviews';
 
 
 export function App(){
@@ -18,6 +19,8 @@ export function App(){
         <Get />
         <Bonus />
         <Clients />
+        <Reviews />
+        
 
         <GlobalStyle />
         </>
