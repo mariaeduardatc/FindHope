@@ -1,6 +1,6 @@
 import { Container, Description, Title, Review, Stars, Text } from "./styles";
 import image from '../../assets/icon.png'
-import check from '../../assets/check.svg'
+import rating from '../../assets/rating.png'
 
 export function Reviews(){ 
     return(
@@ -10,12 +10,10 @@ export function Reviews(){
             </Title>
             <Review>
                 <Description>
-                    <img src={image} alt="" />
+                    <img src="" alt="" className="participants"/>
                     <Stars>   {/* TODO: make this a subclass */}
                         
-                        <img src={check} alt="" />
-                        <img src={check} alt="" />
-                        <img src={check} alt="" />
+                        <img src={rating} alt="" />
                     </Stars>
                 </Description>  
                 <Text>
@@ -30,12 +28,10 @@ export function Reviews(){
                 </Text>
 
                 <Description>
-                    <img src={image} alt="" />
+                    <img src="" alt="" className="participants"/>
                     <Stars>   {/* TODO: make this a subclass */}
                         
-                        <img src={check} alt="" />
-                        <img src={check} alt="" />
-                        <img src={check} alt="" />
+                        <img src={rating} alt="" />
                     </Stars>
                 </Description>  
                 <Text>
@@ -50,12 +46,10 @@ export function Reviews(){
                 </Text>
 
                 <Description>
-                    <img src={image} alt="" />
+                    <img src="" alt="" className="participants"/>
                     <Stars>   {/* TODO: make this a subclass */}
                         
-                        <img src={check} alt="" />
-                        <img src={check} alt="" />
-                        <img src={check} alt="" />
+                        <img src={rating} alt="" />
                     </Stars>
                 </Description>  
                 <Text>
