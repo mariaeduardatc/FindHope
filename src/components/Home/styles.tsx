@@ -3,7 +3,8 @@ import styled from "styled-components";
 export const Container = styled.div`
 
     background-color: rgba(245, 212, 195, 0.7);
-    color: var(--white);
+
+    color: var(--green-dark);
 
     padding: 2rem;
     display: flex;
@@ -40,6 +41,10 @@ export const Clock = styled.div`
 `
 
 export const Register = styled.div`
+    .crossed-line {
+        text-decoration: line-through;
+    }
+
     font-size: 20px;
     color: var(--green-dark);
     button{

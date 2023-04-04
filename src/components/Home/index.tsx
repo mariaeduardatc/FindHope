@@ -26,7 +26,11 @@ export function Home(){
             </Clock>
 
             <Register>
-                <button>Register now: $100 <>$70</></button>
+                <button>Register now: $100 {" "}
+                <span style={{textDecoration: 'line-through'}}>
+                    $70
+                </span>
+                </button>
                 <h3>ONLY 23 SPOTS LEFT</h3>
 
             </Register>
