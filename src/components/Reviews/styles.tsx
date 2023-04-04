@@ -23,8 +23,8 @@ export const Description = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 35%;
-    margin-right: 35%;
+    margin-left: 15%;
+    margin-right: 15%;
 
     img{
         width: 5rem;
@@ -36,8 +36,9 @@ export const Description = styled.div`
 export const Text = styled.div `
     display: flex;
     flex-direction: column;
-    margin-left: 35%;
-    margin-right: 35%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 2rem;
 
     h4{
         font-size: 16px;
