@@ -1,5 +1,5 @@
 import { Container, Description, Title, Review, Stars, Text } from "./styles";
-import image from '../../assets/icon.png'
+
 import rating from '../../assets/rating.png'
 
 export function Reviews(){ 
