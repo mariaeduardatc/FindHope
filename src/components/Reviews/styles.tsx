@@ -5,7 +5,7 @@ export const Container = styled.div`
     background-color: var(--white);
 
     color: var(--green-dark);
-    padding: 0rem 1rem;
+    padding: 0rem 2rem;
 `
 
 export const Title = styled.div`
@@ -25,12 +25,15 @@ export const Description = styled.div`
     align-items: center;
     margin-left: 15%;
     margin-right: 15%;
+    gap: 2rem;
 
-    img{
-        width: 5rem;
-        height: 5rem;
-        border-radius: 50%;
-        margin-bottom: 1rem;
+
+    .participants{
+        width: 2rem;
+        height: 2rem;
+        background-color: var(--green-light);
+        border-radius: 5rem;
+        margin-top: 2rem;
     }
 `
 export const Text = styled.div `
@@ -39,30 +42,24 @@ export const Text = styled.div `
     margin-left: 15%;
     margin-right: 15%;
     margin-bottom: 2rem;
+    gap: 0;
+
+    text-align: justify;
 
     h4{
         font-size: 16px;
         font-weight: 100;
     }
-    h3{
-        text-align: left;
-        text-decoration: bold;
-    }
 `
 
 export const Stars = styled.div`
     display: flex;
-    flex-direction: row;
     gap: 0.2rem;
 
-    width: 7rem;
     height: 2rem;
-    background-color: rgba(256, 256, 256, 0.5);
-    border-radius: 30%;
-    margin-bottom: 0rem;
+    margin-top: 3rem;
     
     img{
-        width: 7rem;
         height: 2rem;
     }
     
