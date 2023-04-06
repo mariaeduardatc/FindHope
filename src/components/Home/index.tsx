@@ -16,7 +16,7 @@ export function Home(){
             </Title>
 
             <Image>
-                <img src={image} alt="" />
+                <img src="" alt="" />
             </Image>
 
             <Clock>

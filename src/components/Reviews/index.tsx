@@ -1,5 +1,9 @@
 import { Container, Description, Title, Review, Stars, Text } from "./styles";
-
+import Aubree  from '../../assets/girl1.png'
+import Claudia  from '../../assets/girl2.png'
+import Dani  from '../../assets/girl3.png'
+import Kisha from '../../assets/girl4.png'
+import Gabrielle from '../../assets/girl5.png'
 import rating from '../../assets/rating.png'
 
 export function Reviews(){ 
@@ -9,58 +13,94 @@ export function Reviews(){
                 <h1>Listen to our costumers!</h1>
             </Title>
             <Review>
-                <Description>
-                    <img src="" alt="" className="participants"/>
-                    <Stars>   {/* TODO: make this a subclass */}
-                        
+                {/* <Description>
+                    <img src={Aubree} alt="" className="participants"/>
+                    <Stars>  
                         <img src={rating} alt="" />
                     </Stars>
-                </Description>  
+                </Description>   */}
                 <Text>
+                    <img src={Aubree} alt=""/>
                     <h3 class-name = "text">
-                        Paul McCartney
+                    Aubree Kozie <br></br>28, New York City, USA
                     </h3>
                     <h4 class-name = "text">
                     <br></br>
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                        nisi ut aliquip ex ea commodo consequat.”</h4>
+                    The best thing happened to me this year 🤗😭</h4>
+                </Text>
+            </Review><Review>
+
+                {/* <Description>
+                    <img src={Dani} alt="" className="participants"/>
+                    <Stars> 
+                        <img src={rating} alt="" />
+                    </Stars>
+                </Description>   */}
+                <Text>
+                    <img src={Dani} alt=""/>
+                    <h3 class-name = "text">
+                    Dani <br></br>31, Leeds, UK
+                    </h3>
+                    <h4 class-name = "text">
+                    <br></br>
+                    I have built BOUNDARIES 🥺! Much better place to manage my anxiety 
+                    & overthinking. This was really useful. Thank you very MUCH 🙏❤️</h4>
                 </Text>
 
-                <Description>
-                    <img src="" alt="" className="participants"/>
-                    <Stars>   {/* TODO: make this a subclass */}
+                {/* <Description>
+                    <img src={Kisha} alt="" className="participants"/>
+                    <Stars>
                         
                         <img src={rating} alt="" />
                     </Stars>
-                </Description>  
+                </Description>   */}
                 <Text>
+                    <img src={Kisha} alt=""/>
                     <h3 class-name = "text">
-                        Paul McCartney
+                    Kisha <br></br>25, Chicago, USA
                     </h3>
                     <h4 class-name = "text">
                     <br></br>
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                        nisi ut aliquip ex ea commodo consequat.”</h4>
+                    I want to thank your psychologist (Ismita)
+                    Thanks for alll the positive affirmations, it helped a lotttt ❤️</h4>
                 </Text>
 
-                <Description>
-                    <img src="" alt="" className="participants"/>
-                    <Stars>   {/* TODO: make this a subclass */}
-                        
+                {/* <Description>
+                    <img src={Gabrielle} alt="" className="participants"/>
+                    <Stars> 
                         <img src={rating} alt="" />
                     </Stars>
-                </Description>  
+                </Description>   */}
+
                 <Text>
+                    <img src={Gabrielle} alt=""/>
                     <h3 class-name = "text">
-                        Paul McCartney
+                    Gabrielle <br></br>30, Los Angeles, USA
                     </h3>
                     <h4 class-name = "text">
                     <br></br>
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                        nisi ut aliquip ex ea commodo consequat.”</h4>
+                    My childhood trauma was intervening in current relationships, 
+                    it was getting hard to mantain healthy relationships. 
+                    The retreat helped me understand attachcement styles 
+                    & inner child healing, I am able to deal with it much better now!</h4>
+                </Text>
+
+                {/* <Description>
+                    <img src={Claudia} alt="" className="participants"/>
+                    <Stars>                         
+                        <img src={rating} alt="" />
+                    </Stars>
+                </Description>   */}
+
+                <Text>
+                    <img src={Claudia} alt=""/>
+                    <h3 class-name = "text">
+                    Claudia <br></br> 32, Los Angeles, USA
+                    </h3>
+                    <h4 class-name = "text">
+                    <br></br>
+                    Just wanted to tell that I could say no to extra work at office 
+                    IN THE RIGHT WAY! Thanksssss for the session on boundaries 🥺😭</h4>
                 </Text>
 
             </Review>

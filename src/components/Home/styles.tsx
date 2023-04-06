@@ -28,8 +28,10 @@ export const Title = styled.div`
 
 export const Image = styled.div`
     img{
+        background-color: var(--green-dark);
         width: 10rem;
         height: 10rem;
+        border-radius: 1rem;
     }
 
     margin-bottom:2rem;

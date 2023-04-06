@@ -6,6 +6,7 @@ export const Container = styled.div`
 
     color: var(--green-dark);
     padding: 0rem 2rem;
+
 `
 
 export const Title = styled.div`
@@ -17,6 +18,18 @@ export const Title = styled.div`
 export const Review = styled.div`
     display: flex;
     flex-direction: column;
+    
+    // display: grid;
+    // grid-template-columns: 1fr 1fr;
+    // padding: 0rem 2rem;
+
+    img{
+        width: 4rem;
+        height: 4rem;
+        background-color: var(--green-light);
+        border-radius: 5rem;
+        margin-top: 2rem;  
+    }
 `
 
 export const Description = styled.div`
@@ -26,7 +39,6 @@ export const Description = styled.div`
     margin-left: 15%;
     margin-right: 15%;
     gap: 2rem;
-
 
     .participants{
         width: 2rem;

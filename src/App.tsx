@@ -19,7 +19,7 @@ export function App(){
         <Information />
         <Benefits />
         <Get />
-        <Bonus />
+        {/* <Bonus /> */}
         <Clients />
         <Reviews />
         
