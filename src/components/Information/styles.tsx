@@ -23,24 +23,36 @@ export const General = styled.div`
     display: flex;
     justify-content: center;
     gap: 2rem;
+    align-items: center;
 
     .information{
         margin-top: 2rem;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        justify-content: center;
+        
     }
 
-    h2{
+    .box{
+        display: flex;
+        flex-direction: row;
         background-color: var(--green-light);
         border-radius: 0.5rem;
 
-        width: 3rem;
-        height: 3rem;
-
-        display: flex;
+        width: 4rem;
+        height: 4rem;
         align-items: center;
+        text-align: center;
+
+    }
+
+    h2{
+        margin-left: 2px;
+        margin-right:2px;
+        font-size: 19px;
         justify-content: center;
+        text-align: center;
+
     }
 
     h4{

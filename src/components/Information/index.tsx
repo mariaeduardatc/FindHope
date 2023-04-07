@@ -14,22 +14,30 @@ export function Information(){
             
             <General>
                 <div className="information" id="date">
-                    <h2>13</h2>
+                    <div className="box" id="date" >
+                        <h2>May 12</h2>
+                    </div>
                     <h4>Date</h4>
                 </div>
 
                 <div className="information" id="Time">
-                    <h2>13</h2>
+                    <div className="box" id="time" >
+                        <h2>Daily 8am</h2>
+                    </div>
                     <h4>Time</h4>
                 </div>
 
                 <div className="information" id="Language">
-                    <h2>EN</h2>
+                    <div className="box" id="Language" >
+                        <h2>EN </h2>
+                    </div>
                     <h4>Language</h4>
                 </div>
 
                 <div className="information" id="Duration">
-                    <h2>EN</h2>
+                    <div className="box" id="Duration" >
+                        <h2>21 days</h2>
+                    </div>
                     <h4>Duration</h4>
                 </div>
             </General>
