@@ -12,8 +12,8 @@ export const Container = styled.header`
 
     #logo{
         margin-left: 2rem;
-        height: 2rem;
-        width: 2rem;
+        height: 3rem;
+        width: 3rem;
     }
 
     #register-button{
