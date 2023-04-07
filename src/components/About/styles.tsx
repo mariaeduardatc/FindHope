@@ -7,6 +7,10 @@ export const Container = styled.div`
     color: var(--green-dark);
     padding: 0rem 2rem;
     padding-bottom: 2rem;
+
+    @media screen and (min-width: 600px){
+        padding: 0rem 30rem;
+    }
 `
 
 export const Title = styled.div`
@@ -32,5 +36,6 @@ export const Host = styled.div`
     p{
         font-size: 16px;
         text-align: left;
+        padding-bottom: 2rem;
     }
 `

@@ -18,6 +18,10 @@ export const Benefit = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 0rem 2rem;
+
+    @media screen and (min-width: 600px) {
+        padding: 0rem 15rem;
+    }
 `
 
 export const Description = styled.div`

@@ -5,6 +5,10 @@ export const Container = styled.div`
     background-color: var(--white);
 
     color: var(--green-dark);
+
+    @media screen and (min-width: 600px){
+        padding: 0rem 30rem;
+    }
 `
 
 export const Title = styled.div`
