@@ -38,15 +38,10 @@ export const Image = styled.div`
 `
 
 export const Clock = styled.div`
-
-    
+   
 `
 
 export const Register = styled.div`
-    .crossed-line {
-        text-decoration: line-through;
-    }
-
     font-size: 20px;
     color: var(--green-dark);
     button{
@@ -54,12 +49,43 @@ export const Register = styled.div`
         border: none;
         border-radius: 2rem;
         width: 10rem;
-        height: 2rem;
+        height: 3rem;
 
         color: var(--green-dark);
+        margin-top: 1rem;
     }
     h3{
         margin-top: 1rem;
-        font-size: 18px;
+        font-size: 20px;
+    }
+`
+
+export const General = styled.div`
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+
+    .information{
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h2{
+        background-color: var(--white);
+        border-radius: 0.5rem;
+
+        width: 3rem;
+        height: 3rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h4{
+        font-weight: 100;
+        font-size: 16px;
     }
 `
