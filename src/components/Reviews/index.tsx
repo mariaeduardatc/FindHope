@@ -21,10 +21,9 @@ export function Reviews(){
                 <Text>
                     <img src={Aubree} alt=""/>
                     <h3 class-name = "text">
-                    Aubree Kozie <br></br>28, New York City, USA
+                    Aubree Kozie - 28, New York City, USA
                     </h3>
                     <h4 class-name = "text">
-                    <br></br>
                     The best thing happened to me this year 🤗😭</h4>
                 </Text>
 
@@ -37,10 +36,9 @@ export function Reviews(){
                 <Text>
                     <img src={Dani} alt=""/>
                     <h3 class-name = "text">
-                    Dani <br></br>31, Leeds, UK
+                    Dani - 31, Leeds, UK
                     </h3>
                     <h4 class-name = "text">
-                    <br></br>
                     I have built BOUNDARIES 🥺! Much better place to manage my anxiety 
                     & overthinking. This was really useful. Thank you very MUCH 🙏❤️</h4>
                 </Text>
@@ -55,10 +53,9 @@ export function Reviews(){
                 <Text>
                     <img src={Kisha} alt=""/>
                     <h3 class-name = "text">
-                    Kisha <br></br>25, Chicago, USA
+                    Kisha - 25, Chicago, USA
                     </h3>
                     <h4 class-name = "text">
-                    <br></br>
                     I want to thank your psychologist (Ismita).
                     Thanks for alll the positive affirmations, it helped a lotttt ❤️</h4>
                 </Text>
@@ -73,10 +70,9 @@ export function Reviews(){
                 <Text>
                     <img src={Gabrielle} alt=""/>
                     <h3 class-name = "text">
-                    Gabrielle <br></br>30, Los Angeles, USA
+                    Gabrielle - 30, Los Angeles, USA
                     </h3>
                     <h4 class-name = "text">
-                    <br></br>
                     My childhood trauma was intervening in current relationships, 
                     it was getting hard to mantain healthy relationships. 
                     The retreat helped me understand attachcement styles 
@@ -93,10 +89,9 @@ export function Reviews(){
                 <Text>
                     <img src={Claudia} alt=""/>
                     <h3 class-name = "text">
-                    Claudia <br></br> 32, Los Angeles, USA
+                    Claudia - 32, Los Angeles, USA
                     </h3>
                     <h4 class-name = "text">
-                    <br></br>
                     Just wanted to tell that I could say no to extra work at office 
                     IN THE RIGHT WAY! Thanksssss for the session on boundaries 🥺😭</h4>
                 </Text>
