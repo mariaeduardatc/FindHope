@@ -22,7 +22,7 @@ export function Get(){
                 <Description>
                     <img src={check} alt="check symbol" />
                     <h4 className="day">Day 2:</h4>
-                    <h4>Ending or healing a toxic relationship</h4>
+                    <h4>Ending/healing a toxic relationship</h4>
                 </Description>
 
                 <Description>

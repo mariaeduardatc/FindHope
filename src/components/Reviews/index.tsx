@@ -1,10 +1,9 @@
-import { Container, Description, Title, Review, Stars, Text } from "./styles";
+import { Container, Description, Title, Review, Text } from "./styles";
 import Aubree  from '../../assets/girl1.png'
 import Claudia  from '../../assets/girl2.png'
 import Dani  from '../../assets/girl3.png'
 import Kisha from '../../assets/girl4.png'
 import Gabrielle from '../../assets/girl5.png'
-import rating from '../../assets/rating.png'
 
 export function Reviews(){ 
     return(
@@ -28,7 +27,6 @@ export function Reviews(){
                     <br></br>
                     The best thing happened to me this year 🤗😭</h4>
                 </Text>
-            </Review><Review>
 
                 {/* <Description>
                     <img src={Dani} alt="" className="participants"/>
@@ -61,7 +59,7 @@ export function Reviews(){
                     </h3>
                     <h4 class-name = "text">
                     <br></br>
-                    I want to thank your psychologist (Ismita)
+                    I want to thank your psychologist (Ismita).
                     Thanks for alll the positive affirmations, it helped a lotttt ❤️</h4>
                 </Text>
 

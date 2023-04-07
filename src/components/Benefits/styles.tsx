@@ -30,7 +30,6 @@ export const Description = styled.div`
     img{
         width: 5rem;
         height: 5rem;
-        background-color: rgba(60, 85, 86, 0.5);
         border-radius: 50%;
         margin-bottom: 1rem;
     }

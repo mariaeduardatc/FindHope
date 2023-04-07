@@ -58,10 +58,11 @@ export const Activities = styled.div`
     align-items: center;
 
     margin-top: 2rem;
+    padding: 0rem 2rem;
 
     h2{
         font-size: 20px;
-        font-weight: 300;
+        font-weight: 500;
     }
 
     h4{

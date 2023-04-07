@@ -14,7 +14,8 @@ export const Title = styled.div`
     }  
 
     h3{
-        font-weight: 200;
+        font-style: "Public Sans";
+        font-weight: 400;
     }
 `
 export const Gets = styled.div`
