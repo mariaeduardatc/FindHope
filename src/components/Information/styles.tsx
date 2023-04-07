@@ -6,6 +6,8 @@ export const Container = styled.div`
 
     color: var(--green-dark);
 
+    padding: 0rem 2rem;
+
     @media screen and (min-width: 600px){
         padding: 0rem 30rem;
     }
