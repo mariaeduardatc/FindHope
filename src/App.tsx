@@ -9,7 +9,7 @@ import { Home } from './components/Home';
 import { Information } from './components/Information';
 import { GlobalStyle } from './styles/global';
 import { Reviews } from './components/Reviews';
-
+import {FAQ} from "./components/FAQ";
 
 export function App(){
     return(
@@ -24,6 +24,7 @@ export function App(){
         <Reviews />
         
         <About />
+        <FAQ />
         <Footer />
 
         <GlobalStyle />
