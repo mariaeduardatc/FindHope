@@ -1,49 +1,51 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  
   display: flex;
   flex-direction: column;
-  align-items: center;
   background-color: var(--white);
-  color: var(--green-dark)  
-
+  color: var(--green-dark)
   
-
 `
 export const Title = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     h1{
-        padding: 2rem 0rem;
+      padding: 2rem 0rem;
     }
 `
 
 export const Question = styled.div`
-
   display: flex;
   flex-direction: column;
-  
+  margin-bottom: 1rem;
 
   .box {
-    margin-bottom: 1rem;
+    height: 5rem; 
     background-color: var(--pink-light);
-    border-radius: 1rem;
-    color: var(--green-dark)
-    padding: 2rem;
-    border: none;
-    width: 50rem;
-    height: 4rem;
-    align-items: center;
+    align-items: left;
     justify-content: center;
+    margin-left: 25%;
+    margin-right: 20%;
+    border-radius: 1rem;
+    color: var(--green-dark) 
+
   }
 
+  h3{
+    font-weight: 600;
+    font-size: 21px;
+    padding-left: 1rem;
 
-  h2{
-    font-weight: 700;
   }
 
   h4{
     font-weight: 500;
-    font-size: 20px;
-    
+    font-size: 20px; 
+    padding-left: 30%;
+    padding-right: 20%; 
   }
+  
   `
